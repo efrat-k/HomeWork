@@ -33,8 +33,9 @@
 ![image](https://user-images.githubusercontent.com/80402757/197383993-b0d5b2ed-c428-42fb-b352-9a315b6e3d54.png)
 
 על מנת להוסיף פרטי מחלת קורונה או חיסון ניתן ללחוץ על הכפתורים הוסף מחלה/ הוסף חיסון בהתאמה, ובהיפתח החלון הנתון להכניס את הנתונים הנידרשים וללחוץ על שמור:
-![image](https://user-images.githubusercontent.com/80402757/197384029-be5dce11-4301-423e-892b-eaca21b00ea2.png)
-![image](https://user-images.githubusercontent.com/80402757/197384045-1627bba8-1629-4325-98de-63c21f60fab0.png)
+![image](https://user-images.githubusercontent.com/80402757/197385241-b69f2e3b-28c7-4fca-8036-48b0836c7f9d.png)
+![image](https://user-images.githubusercontent.com/80402757/197385255-2ca73296-ce70-4f3f-9db4-301051741124.png)
+
 
 
 
