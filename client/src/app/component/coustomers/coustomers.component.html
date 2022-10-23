@@ -1,0 +1,31 @@
+
+<table>
+    <tr>
+        <th>Delete</th>
+        <th>תעודת זהות</th>
+        <th>שם</th>
+        <th>כתובת</th>
+        <th>תאריך לידה</th>
+        <th>טלפון</th>
+        <th>טלפון נייד</th>
+    </tr>
+    <tr *ngFor="let element of this.coustumerServic.listCustomer let i = index">
+        <td (click)="delelte(element.id)">מחק</td>
+        <td (click)="getById(element.id)">{{element.id}} </td>
+        <!-- <td [routerLink]="['/DetailsCustomer', element.id]">{{element.id}} </td> -->
+        <td>{{element.name_coustumer}} </td>
+        <td>{{element.adrress}} </td>
+        <td>{{element.Date_of_birth}} </td>
+        <td>{{element.phone_number}} </td>
+        <td>{{element.mobile_number}} </td>
+
+    </tr>
+</table>
+<!-- כפתור הוספה יש לבדוק כיצד פותחים שדות חדשות ריקות -->
+<button (click)="AddCustomer()">הוספת לקוח</button>
+<p></p>
+<button (click)="howManyCustomerVacc()">כמה לקוחות לא מחוסנית כלל</button>
+<p></p>
+<button (click)="howDiseaseInMonth()">פילוח חולים חודשי</button>
+
+<!-- <router-outlet></router-outlet> -->

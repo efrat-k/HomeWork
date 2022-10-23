@@ -1,0 +1,46 @@
+<div style="text-align:center">
+	<div [innerHtml]='msg' *ngIf="msg" style="color: red;"></div>
+	<div><img [src]="this.customerAll.customer?.picture" *ngIf="this.customerAll.customer?.picture"></div>
+	<p>
+		<input type="file" (change)="selectFile($event)">
+	</p>
+</div>
+<button (click)="close()">סגור</button>
+<h1>פרטים אישיים</h1>
+<!-- <input type="text" [ngClass]="this.customerAll.customer?.id" > -->
+<p>תעודת זהות</p>
+<input type="text" value="{{this.customerAll.customer?.id}}"  >
+<!-- <input type="text" value="{{this.customerAll.customer?.id}}" (change)="changeID($event)" > -->
+<p>שם</p>
+<input type="text" value="{{this.customerAll.customer?.name_coustumer}}" (change)="changeName($event)" >
+<p>כתובת</p>
+<input type="text" value="{{this.customerAll.customer?.adrress}}" (change)="changeAdress($event)">
+<p>תאריך לידה</p>
+<input type="date" value="{{this.customerAll.customer?.Date_of_birth}}" (change)="changeBirthDay($event)">
+<p>טלפון</p>
+<input type="text" value="{{this.customerAll.customer?.phone_number}}" (change)="changeNumber($event)">
+<p>טלפון נייד</p>
+<input type="text" value="{{this.customerAll.customer?.mobile_number}}" (change)="changeMobile($event)">
+
+
+<h1>פרטי מחלת קורונה</h1>
+<button (click)="addDiseas(this.customerAll.customer?.id)">הוסף מחלה</button>
+<div *ngFor="let element of this.customerAll.diease">
+    <input type="date" value="{{element.sick_date}}" (change)="changeSick_date($event)">
+    <input type="date" value="{{element.recovercy_date}}" (change)="changeRecovercy_date($event)">
+</div>
+<h1>פרטי חיסונים</h1>
+
+
+<div *ngFor="let element of this.customerAll.vecAll let i=index">
+    <p>חיסון  {{i+1}}</p>
+    <input type="date" value="{{element.vac_date}}" (change)="changeVacDate($event, element.id_vac)">
+    <input type="text" value="{{element.vac_type}}" (change)="changeVacType($event, element.id_vac)">
+</div>
+<button (click)="addVaccinate(this.customerAll.customer?.id)">הוסף חיסון</button>
+<br>
+<button (click)="UpdateCustomer(this.customerAll)"> שמור שינויים</button>
+
+
+
+

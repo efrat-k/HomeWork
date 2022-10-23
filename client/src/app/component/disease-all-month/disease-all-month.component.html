@@ -1,0 +1,21 @@
+<p>(yyyy-mm)הכנס חודש מסויים בפורמט</p>
+<input type="date"  (change)="changedate($event)" >
+<button (click)="showDiseasInMonth()">הצג</button>
+<p> {{this.month}}חולים לחודש </p>
+
+<table>
+    <th>
+        <tr>        יום</tr>
+        <tr>מספר החולים</tr>
+        
+    </th>
+    <th *ngFor="let element of this.coustumerServic.listSickInMonth ">
+        <tr>{{element.day}} </tr>
+        <tr>         {{element.sum}} </tr>
+
+
+    </th>
+    
+    </table>
+<button (click)="close()">סגור</button>
+

@@ -1,0 +1,15 @@
+<p>תעודת זהות</p>
+<input type="text"  (change)="changeId($event)" >
+<!-- <input type="text" value="{{this.customerAll.customer?.id}}" (change)="changeID($event)" > -->
+<p>שם</p>
+<input type="text" (change)="changeName($event)" >
+<p>כתובת</p>
+<input type="text"  (change)="changeAdress($event)">
+<p>תאריך לידה</p>
+<input type="date"  (change)="changeBirthDay($event)">
+<p>טלפון</p>
+<input type="text"  (change)="changeNumber($event)">
+<p>טלפון נייד</p>
+<input type="text"  (change)="changeMobile($event)">
+
+<button (click)="AddCustomer()">שמור</button>
