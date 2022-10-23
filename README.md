@@ -1,9 +1,9 @@
 # HomeWork
 מאגר הנתונים מנוהל ב-sql server
 צד השרת כתוב ב-python בשביל התרגיל היה צורך במספר התקנות:
-   pip install pyodbc
-   pip install pipenv 
-   pipenv install flask marshmallow
+   pip install pyodbc  /
+   pip install pipenv   /
+   pipenv install flask marshmallow  /
 צד הלקוח כתוב בangular.
  על מנת להפעיל את התרגיל נצטרך קודם להרים את השרת דרך תוכנת pycharm ואח"כ להרים את הלקוח בvisual studio code. (אלו התוכנות שאני השתמשתי).
 
