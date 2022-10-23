@@ -17,6 +17,8 @@
 על מנת להוסיף לקוח נלחץ על כפתור הוספת לקוח ויפתח המסך הבא:
 ![image](https://user-images.githubusercontent.com/80402757/197383610-11df2544-de32-4498-b71a-d3dbcbb980d4.png)
 נוסיף את הנתונים בשדות המתאימים ונלחץ על שמור. ובכך נחזור למסך הראשי ונוכל לראות שהלקוח נשמר.
+![image](https://user-images.githubusercontent.com/80402757/197384191-1b822ef8-f2eb-4767-92d8-6a2ffb6868f3.png)
+
 ![image](https://user-images.githubusercontent.com/80402757/197383808-546aea0e-67cd-4a0e-9b4f-dab989560de0.png)
 
 
