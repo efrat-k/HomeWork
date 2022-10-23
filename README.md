@@ -46,8 +46,8 @@
 ![image](https://user-images.githubusercontent.com/80402757/197384414-f39d0590-7fd8-4bb5-b8d0-3743db550454.png)
 
 על מנת לראות את פילוח חולי הקורונה לפי יום ניתן ללחוץ על הכפתור המתאים ולאר מחכן להכניס את החודש הרצוי וללחוץ על "הצג" ואז יוצגו הנתונים:
-![image](https://user-images.githubusercontent.com/80402757/197384436-de7c4834-f095-4dcf-be8c-e1a70fc37b8f.png)
+![image](https://user-images.githubusercontent.com/80402757/197385447-4e6b132e-7927-42c4-9474-5a1f71aac72a.png)
+![image](https://user-images.githubusercontent.com/80402757/197385475-3f2dcdcd-7b2f-45ab-86f9-0ce22455daa0.png)
 
-![image](https://user-images.githubusercontent.com/80402757/197384460-7319d2e4-13ce-4d95-b712-4cc66b3f6d72.png)
 
 
